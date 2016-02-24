@@ -23,7 +23,7 @@ with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
 version = __import__('tvb').get_version()
 
 setup(
-    name='tvb',
+    name='alitvb',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -38,7 +38,7 @@ setup(
 
     # Author details
     author='Juncheng Chen',
-    author_email='juncheng.cjc@alibaba-inc.com',
+    author_email='juncheng.cjc@outlook.com',
 
     # Choose your license
     license='Apache 2.0',
